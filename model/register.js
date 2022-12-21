@@ -30,6 +30,10 @@ const RegisterSchema = mongoose.Schema({
     batch:
     {
         type:String,
+    },
+    profile:
+    {
+        type:String,
     }
 }); 
 
